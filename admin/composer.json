@@ -1,0 +1,21 @@
+{
+    "name": "madhu/admin-dashboard",
+    "description": "An admin dashboard for managing print orders.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Madhu\\AdminDashboard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Madhu",
+            "email": "tmadhumitha24@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
